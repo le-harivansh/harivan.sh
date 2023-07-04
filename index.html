@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Harivansh">
-    <meta name="color-scheme" content="light dark">
+    <meta name="color-scheme" content="light">
 
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
 
@@ -12,17 +12,31 @@
   </head>
   <body class="w-screen h-screen">
     <main class="w-full h-full grid place-items-center font-display">
-      <article class="p-1 flex flex-col space-y-10">
+      <article class="p-1 flex flex-col space-y-12">
         <section>
           <p class="md:text-lg lg:text-xl text-slate-400">hi, i'm</p>
           <h2 class="font-heading text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Harivansh</h2>
-          <p class="md:text-lg lg:text-xl text-right text-slate-400">a web and software developer</p>
+          <p class="md:text-lg lg:text-xl text-right text-slate-400">a web systems & mobile developer</p>
         </section>
   
-        <section class="flex space-x-2 self-center">
-          <p class="md:text-lg lg:text-xl text-slate-400">you can reach me at</p>
-          <a href="mailto:hello@harivan.sh" class="md:text-lg lg:text-xl tracking-wide text-slate-800 border-b-2 border-slate-500">hello@harivan.sh</a>
+        <div class="flex justify-between">
+        <section class="flex space-x-2 items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="l.5" stroke="currentColor" class="w-6 h-6 text-slate-400">
+            <path stroke-linecap="round" d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25" />
+          </svg>
+
+          <a href="mailto:hello@harivan.sh" class="md:text-lg lg:text-xl tracking-wide text-slate-400">hello@harivan.sh</a>
         </section>
+
+        <section class="flex space-x-2 items-center">
+          <svg width="25" height="24" viewBox="0 0 25 24" fill="none" stroke="currentColor" stroke-width="1.25" xmlns="http://www.w3.org/2000/svg" class="text-slate-400">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0.75C6.14625 0.75 1 5.89625 1 12.25C1 17.3387 4.29187 21.6369 8.86312 23.1606C9.43812 23.2612 9.65375 22.9162 9.65375 22.6144C9.65375 22.3412 9.63938 21.4356 9.63938 20.4725C6.75 21.0044 6.0025 19.7681 5.7725 19.1212C5.64313 18.7906 5.0825 17.77 4.59375 17.4969C4.19125 17.2812 3.61625 16.7494 4.57938 16.735C5.485 16.7206 6.13188 17.5687 6.3475 17.9137C7.3825 19.6531 9.03563 19.1644 9.69688 18.8625C9.7975 18.115 10.0994 17.6119 10.43 17.3244C7.87125 17.0369 5.1975 16.045 5.1975 11.6462C5.1975 10.3956 5.64312 9.36062 6.37625 8.55562C6.26125 8.26812 5.85875 7.08937 6.49125 5.50812C6.49125 5.50812 7.45438 5.20625 9.65375 6.68687C10.5738 6.42812 11.5513 6.29875 12.5288 6.29875C13.5063 6.29875 14.4838 6.42812 15.4038 6.68687C17.6031 5.19187 18.5662 5.50812 18.5662 5.50812C19.1987 7.08937 18.7962 8.26812 18.6812 8.55562C19.4144 9.36062 19.86 10.3812 19.86 11.6462C19.86 16.0594 17.1719 17.0369 14.6131 17.3244C15.03 17.6837 15.3894 18.3737 15.3894 19.4519C15.3894 20.99 15.375 22.2262 15.375 22.6144C15.375 22.9162 15.5906 23.2756 16.1656 23.1606C20.7081 21.6369 24 17.3244 24 12.25C24 5.89625 18.8538 0.75 12.5 0.75Z"/>
+          </svg>
+
+
+          <a href="https://github.com/le-harivansh" target="_blank" class="md:text-lg lg:text-xl tracking-wide text-slate-400">github.com/le-harivansh</a>
+        </section>
+        </div>
       </article>
     </main>
     <script type="module" src="/src/main.ts"></script>
