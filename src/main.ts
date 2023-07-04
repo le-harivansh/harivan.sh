@@ -15,7 +15,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
-    <p class="read-the-docs">
+    <p class="read-the-docs text-red-500">
       Click on the Vite and TypeScript logos to learn more
     </p>
   </div>
