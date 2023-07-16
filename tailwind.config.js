@@ -10,7 +10,23 @@ export default {
       display: ['Titillium Web', ...defaultTheme.fontFamily.sans],
       heading: ['Poiret One', ...defaultTheme.fontFamily.sans]
     },
-    extend: {},
+    extend: {
+      animation: {
+        gradient: 'gradient 10s ease infinite',
+      },
+      keyframes: {
+        gradient: {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center',
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center',
+          },
+        },
+      },
+    },
   },
   plugins: [],
 }
